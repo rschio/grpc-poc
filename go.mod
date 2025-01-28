@@ -3,7 +3,7 @@ module github.com/rschio/grpc-poc
 go 1.21.5
 
 require (
-	github.com/golang/glog v1.1.2
+	github.com/golang/glog v1.2.4
 	github.com/golang/protobuf v1.5.3
 	github.com/google/go-cmp v0.6.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3
