@@ -1,6 +1,7 @@
 module github.com/rschio/grpc-poc
 
 go 1.21.5
+toolchain go1.23.7
 
 require (
 	github.com/golang/glog v1.1.2
@@ -13,9 +14,9 @@ require (
 )
 
 require (
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/genproto v0.0.0-20231211222908-989df2bf70f3 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231212172506-995d672761c0 // indirect
 )
